@@ -17,13 +17,14 @@
 # Lorenzo Battistini <lorenzo.battistini@agilebg.com>, 2018
 # ginfriz <ginfriz84@hotmail.it>, 2018
 # Léonie Bouchat <lbo@odoo.com>, 2018
+# Sergio Zanchetta <primes2h@gmail.com>, 2018
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-19 13:42+0000\n"
 "PO-Revision-Date: 2018-02-19 13:42+0000\n"
-"Last-Translator: Léonie Bouchat <lbo@odoo.com>, 2018\n"
+"Last-Translator: Sergio Zanchetta <primes2h@gmail.com>, 2018\n"
 "Language-Team: Italian (https://www.transifex.com/odoo/teams/41243/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -534,6 +535,9 @@ msgid ""
 "                                <span class=\"css_publish\">Unpublished</span>\n"
 "                                <span class=\"css_unpublish\">Published</span>"
 msgstr ""
+"<span/>\n"
+"                                <span class=\"css_publish\">Non pubblicato</span>\n"
+"                                <span class=\"css_unpublish\">Pubblicato</span>"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_comparisons
@@ -803,6 +807,11 @@ msgid ""
 "field as True to allow users to run this action. If it is set to False the "
 "action cannot be run through the website."
 msgstr ""
+"Un'azione del server di codice può essere eseguita dal sito Web con un "
+"controller. L'indirizzo è <base>/website/action/<website_path>. Imposta il "
+"valore di questo campo su Vero per consentire agli utenti di eseguire "
+"un'azione. Se questo campo è impostato su Falso, l'azione non può essere "
+"eseguita tramite il sito Web"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_text_block
@@ -1142,7 +1151,7 @@ msgstr ""
 #. module: website
 #: model:ir.model.fields,field_description:website.field_website_page_field_parent
 msgid "Child Field"
-msgstr "CampoCollegato"
+msgstr "Campo Collegato"
 
 #. module: website
 #: model:ir.model.fields,field_description:website.field_website_menu_child_id
@@ -1419,7 +1428,7 @@ msgstr "Predefinito"
 #. module: website
 #: model:ir.ui.view,arch_db:website.res_config_settings_view_form
 msgid "Default Access Rights"
-msgstr ""
+msgstr "Autorizzazioni di Accesso predefinite"
 
 #. module: website
 #: model:ir.model.fields,field_description:website.field_website_default_lang_id
@@ -1442,7 +1451,7 @@ msgstr "Codice predefinito della lingua"
 #: code:addons/website/static/src/xml/website.seo.xml:41
 #, python-format
 msgid "Define Keywords"
-msgstr ""
+msgstr "Definisci le parole chiave"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_feature_grid
@@ -1695,7 +1704,7 @@ msgstr "Esempi"
 #: code:addons/website/static/src/xml/website.contentMenu.xml:61
 #, python-format
 msgid "Existing Page, URL or Email"
-msgstr ""
+msgstr "Pagina esistente, URL o Email"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_comparisons
@@ -1876,6 +1885,8 @@ msgid ""
 "Get this page efficiently referenced in search engines to attract more "
 "visitors."
 msgstr ""
+"Ottimizza efficacemente questa pagina sui motori di ricerca per attrarre più"
+" visitatori."
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -2034,7 +2045,7 @@ msgstr "Crescita"
 #. module: website
 #: model:ir.ui.view,arch_db:website.user_navbar
 msgid "HTML/CSS Editor"
-msgstr ""
+msgstr "Editor HTML/CSS"
 
 #. module: website
 #: model:ir.model,name:website.model_ir_http
@@ -2131,6 +2142,8 @@ msgid ""
 "If this field is empty, the view applies to all users. Otherwise, the view "
 "applies to the users of those groups only."
 msgstr ""
+"Se questo campo è vuoto, la view si applica a tutti gli utenti. In caso "
+"contrario, la view si applica solo agli utenti di questi gruppi."
 
 #. module: website
 #: model:ir.model.fields,help:website.field_website_page_active
@@ -2448,7 +2461,7 @@ msgstr "Menu Principale"
 #. module: website
 #: model:ir.ui.view,arch_db:website.user_navbar
 msgid "Manage Pages"
-msgstr ""
+msgstr "Gestisci Pagine"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.edit_website_pages
@@ -2458,7 +2471,7 @@ msgstr "Gestisci le tue Pagine"
 #. module: website
 #: model:ir.ui.view,arch_db:website.user_navbar
 msgid "Manage Your Website Pages"
-msgstr ""
+msgstr "Gestisci Pagine del sito web"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -2468,7 +2481,7 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.edit_website_pages
 msgid "Manage this page"
-msgstr ""
+msgstr "Gestisci questa pagina"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.snippet_options
@@ -2871,7 +2884,7 @@ msgstr ""
 #. module: website
 #: model:ir.model.fields,field_description:website.field_website_page_website_indexed
 msgid "Page Indexed"
-msgstr ""
+msgstr "Pagina Indicizzata"
 
 #. module: website
 #. openerp-web
@@ -3033,7 +3046,7 @@ msgstr "Promuovi"
 #: code:addons/website/static/src/js/menu/seo.js:339
 #, python-format
 msgid "Promote Page"
-msgstr ""
+msgstr "Promuovi la Pagina"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.user_navbar
@@ -3102,7 +3115,7 @@ msgstr "Pubblicato"
 #: model:ir.model.fields,field_description:website.field_website_page_date_publish
 #, python-format
 msgid "Publishing Date"
-msgstr ""
+msgstr "Data di pubblicazione"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.http_error_debug
@@ -3177,7 +3190,7 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_pages_form_view
 msgid "Related Menu Items"
-msgstr ""
+msgstr "Voci di Menu correlate"
 
 #. module: website
 #: model:ir.model.fields,field_description:website.field_website_page_menu_ids
@@ -3427,7 +3440,7 @@ msgstr "Ordina per Url"
 #. module: website
 #: model:ir.ui.view,arch_db:website.snippet_options
 msgid "Square"
-msgstr ""
+msgstr "Quadrato"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_image_text
@@ -3843,7 +3856,7 @@ msgstr ""
 #: code:addons/website/static/src/xml/website.pageProperties.xml:97
 #, python-format
 msgid "Use as Homepage"
-msgstr ""
+msgstr "Usa come Homepage"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -4029,7 +4042,7 @@ msgstr ""
 #: model:ir.actions.act_window,name:website.action_website_pages_list
 #: model:ir.ui.view,arch_db:website.website_pages_tree_view
 msgid "Website Pages"
-msgstr ""
+msgstr "Pagine del Sito Web"
 
 #. module: website
 #: model:ir.model.fields,field_description:website.field_ir_act_server_website_path
@@ -4323,7 +4336,7 @@ msgstr ""
 #: model:ir.actions.act_window,help:website.action_module_theme
 #: model:ir.actions.act_window,help:website.action_module_website
 msgid "You should try other search criteria."
-msgstr ""
+msgstr "Dovresti provare altri criteri di ricerca."
 
 #. module: website
 #. openerp-web
@@ -4557,7 +4570,7 @@ msgstr "o Modifica Principale"
 #. module: website
 #: model:ir.ui.view,arch_db:website.res_config_settings_view_form
 msgid "page"
-msgstr ""
+msgstr "pagina"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner

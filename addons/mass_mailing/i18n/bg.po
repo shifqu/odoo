@@ -11,13 +11,14 @@
 # Anton Vassilev, 2018
 # Vladimir Petrov <vladimir.petrov@gmail.com>, 2018
 # Radina <radis.choice@gmail.com>, 2018
+# Maria Boyadjieva <marabo2000@gmail.com>, 2018
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-19 13:43+0000\n"
 "PO-Revision-Date: 2018-02-19 13:43+0000\n"
-"Last-Translator: Radina <radis.choice@gmail.com>, 2018\n"
+"Last-Translator: Maria Boyadjieva <marabo2000@gmail.com>, 2018\n"
 "Language-Team: Bulgarian (https://www.transifex.com/odoo/teams/41243/bg/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -171,7 +172,7 @@ msgstr ""
 #. module: mass_mailing
 #: model:ir.ui.view,arch_db:mass_mailing.s_mail_block_comparison_table
 msgid "<small>user / month (billed annually)</small>"
-msgstr ""
+msgstr "<small>потребител / месец (ежегодно таксуван)</small>"
 
 #. module: mass_mailing
 #: model:ir.ui.view,arch_db:mass_mailing.s_mail_block_footer_social
@@ -192,7 +193,7 @@ msgstr ""
 #. module: mass_mailing
 #: model:ir.ui.view,arch_db:mass_mailing.s_mail_block_comparison_table
 msgid "<strong>Advanced</strong> features"
-msgstr ""
+msgstr "<strong>Разширени</strong> функции"
 
 #. module: mass_mailing
 #: model:ir.ui.view,arch_db:mass_mailing.s_mail_block_comparison_table
@@ -409,12 +410,12 @@ msgstr "Цвят"
 #. module: mass_mailing
 #: model:ir.ui.view,arch_db:mass_mailing.s_mail_block_three_cols
 msgid "Column Title"
-msgstr ""
+msgstr "Заглавие на колона"
 
 #. module: mass_mailing
 #: model:ir.ui.view,arch_db:mass_mailing.s_mail_block_two_cols
 msgid "Column title"
-msgstr ""
+msgstr "Заглавие на колона"
 
 #. module: mass_mailing
 #: model:ir.model.fields,help:mass_mailing.field_mail_mass_mailing_test_email_to
@@ -525,7 +526,7 @@ msgstr ""
 #. module: mass_mailing
 #: model:ir.model.fields,help:mass_mailing.field_mail_mail_statistics_exception
 msgid "Date of technical error leading to the email not being sent"
-msgstr ""
+msgstr "Дата на техническата грешка, довела до неизпратен имейл"
 
 #. module: mass_mailing
 #: model:ir.model.fields,help:mass_mailing.field_mail_mail_statistics_clicked
@@ -688,7 +689,7 @@ msgstr ""
 #. module: mass_mailing
 #: model:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_contact_search
 msgid "Exclude Opt Out"
-msgstr ""
+msgstr "Изключете 'Отказ от възможност'"
 
 #. module: mass_mailing
 #: model:ir.ui.view,arch_db:mass_mailing.view_mail_statistics_report_search
@@ -725,7 +726,7 @@ msgstr ""
 #. module: mass_mailing
 #: selection:mail.mass_mailing,reply_to_mode:0
 msgid "Followers of leads/applicants"
-msgstr ""
+msgstr "Последователи на лийдове/кандидати"
 
 #. module: mass_mailing
 #: model:ir.model.fields,field_description:mass_mailing.field_mail_mass_mailing_email_from
@@ -739,6 +740,9 @@ msgid ""
 "Get your inside sales (CRM) fully integrated with online sales (eCommerce), "
 "in-store sales (Point of Sale) and marketplaces like eBay and Amazon."
 msgstr ""
+"Получавайте вътрешните си продажби (CRM) напълно обединени с онлайн "
+"продажбите (eCommerce), продажби в магазина (Център за продажби) и на пазари"
+" като eBay и Amazon."
 
 #. module: mass_mailing
 #: model:ir.model.fields,field_description:mass_mailing.field_res_company_social_github
@@ -1042,7 +1046,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_campaign_search
 #: model:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_campaign_tree
 msgid "Mass Mailing Campaigns"
-msgstr ""
+msgstr "Масови пощенски кампании"
 
 #. module: mass_mailing
 #: model:ir.model,name:mass_mailing.model_mail_mass_mailing_contact
@@ -1106,6 +1110,9 @@ msgid ""
 "Mass mailing allows you to to easily design and send mass mailings to your "
 "contacts, customers or leads using mailing lists."
 msgstr ""
+"Масовото разпращане на писма Ви позволява лесно да съставяте и изпращате "
+"масови писма към контактите, клиентите или лийдовете си, използвайки "
+"пощенски списъци."
 
 #. module: mass_mailing
 #: model:ir.model.fields,field_description:mass_mailing.field_mail_mass_mailing_campaign_medium_id
@@ -1126,7 +1133,7 @@ msgstr "Повече"
 #. module: mass_mailing
 #: model:ir.ui.view,arch_db:mass_mailing.s_mail_block_event
 msgid "More Info"
-msgstr ""
+msgstr "Повече информация"
 
 #. module: mass_mailing
 #: model:ir.ui.view,arch_db:mass_mailing.s_mail_block_footer_tag_line
@@ -1136,7 +1143,7 @@ msgstr "Моят акаунт"
 #. module: mass_mailing
 #: model:ir.ui.view,arch_db:mass_mailing.s_mail_block_header_text_social
 msgid "My Company"
-msgstr ""
+msgstr "Моята компания"
 
 #. module: mass_mailing
 #: model:ir.model.fields,field_description:mass_mailing.field_mail_mass_mailing_contact_name

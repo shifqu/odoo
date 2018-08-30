@@ -11,13 +11,14 @@
 # Iliana Ilieva <i.ilieva@sunservice-bg.com>, 2018
 # Anton Vassilev, 2018
 # Antoan Georgiev <expocarbg@gmail.com>, 2018
+# Maria Boyadjieva <marabo2000@gmail.com>, 2018
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-19 13:43+0000\n"
 "PO-Revision-Date: 2018-02-19 13:43+0000\n"
-"Last-Translator: Antoan Georgiev <expocarbg@gmail.com>, 2018\n"
+"Last-Translator: Maria Boyadjieva <marabo2000@gmail.com>, 2018\n"
 "Language-Team: Bulgarian (https://www.transifex.com/odoo/teams/41243/bg/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -175,6 +176,7 @@ msgid ""
 "<span><i>Pending</i>... The order will be validated after the "
 "payment.</span>"
 msgstr ""
+"<span><i>Висяща</i>... Поръчката ще бъде валидирана след плащането.</span>"
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_transaction_acquirer_id
@@ -194,7 +196,7 @@ msgstr ""
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_transaction_acquirer_reference
 msgid "Acquirer Reference"
-msgstr ""
+msgstr "Референция към приобретател"
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_icon_acquirer_ids
@@ -768,7 +770,7 @@ msgstr ""
 #. module: payment
 #: selection:payment.acquirer,save_token:0
 msgid "Never"
-msgstr ""
+msgstr "Никога"
 
 #. module: payment
 #. openerp-web
@@ -877,7 +879,7 @@ msgstr ""
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer_journal_id
 msgid "Payment Journal"
-msgstr ""
+msgstr "Счетоводен регистър за плащанията"
 
 #. module: payment
 #: model:ir.ui.view,arch_db:payment.pay_methods
@@ -1398,7 +1400,7 @@ msgstr ""
 #. module: payment
 #: model:ir.ui.view,arch_db:payment.acquirer_form
 msgid "amount: the transaction amount, a float"
-msgstr ""
+msgstr "сума: сума по транзакцията, плаваща запетая"
 
 #. module: payment
 #: model:ir.ui.view,arch_db:payment.payment_tokens_list
@@ -1427,6 +1429,8 @@ msgstr ""
 #: model:ir.ui.view,arch_db:payment.acquirer_form
 msgid "partner: the buyer partner browse record, not necessarily set"
 msgstr ""
+"контрагент: контрагентът на купувача преглежда записа, не е непременно "
+"настроен"
 
 #. module: payment
 #: model:ir.ui.view,arch_db:payment.acquirer_form
@@ -1434,6 +1438,8 @@ msgid ""
 "partner_values: specific values about the buyer, for example coming from a "
 "shipping form"
 msgstr ""
+"partner_values: конкретни стойности относно купувача, например идващ от "
+"шипинг форма"
 
 #. module: payment
 #: model:ir.model,name:payment.model_payment_token
@@ -1443,7 +1449,7 @@ msgstr ""
 #. module: payment
 #: model:ir.ui.view,arch_db:payment.acquirer_form
 msgid "reference: the transaction reference number"
-msgstr ""
+msgstr "референция: референтният номер на транзакцията"
 
 #. module: payment
 #: model:ir.ui.view,arch_db:payment.acquirer_form
